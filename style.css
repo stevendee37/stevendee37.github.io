@@ -11,10 +11,19 @@ body { /* add page background and font style/size/color */
     background-color: rgb(189, 255, 244);
 }
 
+#HEADER{
+    min-height:100vh;
+    background-color: white;
+}
+
 #profile{
     width: 500px;
     height: auto;
     margin: auto;
+}
+
+.title{
+    font: 24px Arial black;
 }
 
 .paragraph{
