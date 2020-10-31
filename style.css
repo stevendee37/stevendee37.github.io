@@ -12,7 +12,8 @@ body { /* add page background and font style/size/color */
 }
 
 #profile{
-    width: 5em;
+    width: 500px;
+    height: auto;
     margin: auto;
 }
 
