@@ -5,13 +5,16 @@ body { /* add page background and font style/size/color */
     text-align: center; /* removes margin by default */
     display: flex;
     flex-direction: column;
-    margin: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
     font: 24px Arial Black;
     background-color: rgb(136, 252, 232);
-
-
-
 }
-img { display: block; } /* images take up their own line now */
+
+#profile{
+    width: 50%;
+    margin: auto;
+}
+img { display: inline; } /* images take up their own line now */
 
 
