@@ -12,9 +12,10 @@ body { /* add page background and font style/size/color */
 }
 
 #profile{
-    width: 50%;
+    height: 30%;
+    width: 30%;
     margin: auto;
 }
-img { display: inline; } /* images take up their own line now */
+img { display: inline; } 
 
 
