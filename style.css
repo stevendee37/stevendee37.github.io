@@ -1,10 +1,10 @@
-/* syle.css */
+/* style.css */
 
 html,
 body { /* add page background and font style/size/color */
-    margin: 5; /* removes margin by default */
+    text-align: center; /* removes margin by default */
     display: flex;
-    font: 24px Arial Black;
+    font: 24px Arial;
     background-color: rgb(136, 252, 232);
 
 
@@ -12,7 +12,4 @@ body { /* add page background and font style/size/color */
 }
 img { display: block; } /* images take up their own line now */
 
-
-
-/* ===== style your elements ===== */
 
