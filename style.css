@@ -8,14 +8,19 @@ body { /* add page background and font style/size/color */
     margin-left: 10%;
     margin-right: 10%;
     font: 24px Arial Black;
-    background-color: rgb(136, 252, 232);
+    background-color: rgb(189, 255, 244);
 }
 
 #profile{
-    height: 30%;
-    width: 30%;
+    height: 45%;
+    width: 45%;
     margin: auto;
 }
+
+.paragraph{
+    font: 14px Arial;
+}
+
 img { display: inline; } 
 
 
