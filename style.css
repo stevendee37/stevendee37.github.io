@@ -23,7 +23,7 @@ body { /* add page background and font style/size/color */
     margin: auto;
 }
 
-.title{
+#title{
     font: 24px Arial black;
 }
 
