@@ -4,7 +4,8 @@ html,
 body { /* add page background and font style/size/color */
     margin: 5; /* removes margin by default */
     display: flex;
-    font: 24px Arial;
+    font: 24px Arial Black;
+    background-color: rgb(136, 252, 232);
 
 
 
