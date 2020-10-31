@@ -13,6 +13,7 @@ body { /* add page background and font style/size/color */
 
 #HEADER{
     min-height:100vh;
+    width: 100vw;
     background-color: white;
 }
 
