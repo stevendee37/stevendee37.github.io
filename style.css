@@ -4,6 +4,8 @@ html,
 body { /* add page background and font style/size/color */
     text-align: center; /* removes margin by default */
     display: flex;
+    flex-direction: column;
+    margin: 10%;
     font: 24px Arial Black;
     background-color: rgb(136, 252, 232);
 
