@@ -2,8 +2,9 @@
 
 html,
 body { /* add page background and font style/size/color */
-    margin: 0; /* removes margin by default */
+    margin: 5; /* removes margin by default */
     display: flex;
+    font: 24px Arial;
 
 
 
