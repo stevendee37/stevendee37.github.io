@@ -41,13 +41,13 @@ body { /* add page background and font style/size/color */
 img { display: inline; } 
 
 #singlePicRow{
-    width: 99.4%;
+    width: 96.7vw;
     height: auto;
     margin: auto;
 }
 
 #doublePicRow{
-    width: 49.5%;
+    width: 48vw;
     height: auto;
     margin: auto;
 }
