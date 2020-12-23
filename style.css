@@ -3,28 +3,32 @@
 html,
 body { /* add page background and font style/size/color */
     text-align: center; /* removes margin by default */
+    margin: 0;
     display: flex;
     flex-direction: column;
-    margin-left: 10%;
-    margin-right: 10%;
     font: 24px Arial Black;
-    background-color: rgb(189, 255, 244);
+    background-color: rgb(255, 255, 255);
 }
 
 #HEADER{
-    min-height:100vh;
+    min-height:auto;
     width: 100vw;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
+}
+
+.content{
+    text-align: left;
+    flex-direction: row;
 }
 
 #profile{
-    width: 500px;
+    width: 100%;
     height: auto;
     margin: auto;
 }
 
 #title{
-    font: 24px Arial black;
+    font: 128px Arial black;
 }
 
 .paragraph{
@@ -32,5 +36,27 @@ body { /* add page background and font style/size/color */
 }
 
 img { display: inline; } 
+
+
+#pic{
+    width: 49.5%;
+    height: auto;
+    margin: auto;
+}
+
+.box{
+    position: relative;
+    display: inline-block;
+}
+.box .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 40%;
+    text-align: center;
+    width: 60%;
+}
 
 
