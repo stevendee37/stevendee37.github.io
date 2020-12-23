@@ -34,7 +34,7 @@ body { /* add page background and font style/size/color */
 .paragraph{
     text-align: left;
     margin: 5px;
-    min-height: 40px;
+    min-height: 20px;
     font: 24px Arial;
 }
 
