@@ -17,7 +17,7 @@ body { /* add page background and font style/size/color */
 }
 
 .content{
-    text-align: left;
+    text-align: center;
     flex-direction: row;
 }
 
@@ -32,13 +32,21 @@ body { /* add page background and font style/size/color */
 }
 
 .paragraph{
-    font: 14px Arial;
+    text-align: left;
+    margin: 5px;
+    min-height: 40px;
+    font: 24px Arial;
 }
 
 img { display: inline; } 
 
+#singlePicRow{
+    width: 99.4%;
+    height: auto;
+    margin: auto;
+}
 
-#pic{
+#doublePicRow{
     width: 49.5%;
     height: auto;
     margin: auto;
@@ -57,6 +65,7 @@ img { display: inline; }
     top: 40%;
     text-align: center;
     width: 60%;
+    font-size: 1.5vw;
 }
 
 
